@@ -8,5 +8,13 @@
   "activationEvents": [
     "*"
   ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.horse",
+        "title": "Test our extension."
+      }
+    ]
+  },
   "main": "./extension.js"
 }
