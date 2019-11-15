@@ -1,0 +1,25 @@
+{
+  "name": "horse-minimal-extension",
+  "displayName": "horse-minimal-extension",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.40.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "*"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [{
+      "command": "extension.helloWorld",
+      "title": "Hello World"
+    }]
+  },
+  "scripts": {
+  },
+  "devDependencies": {
+  }
+}
